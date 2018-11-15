@@ -15,6 +15,16 @@
 333
 111
 
+```java
+  try {
+      return true;
+  } finally {
+      return false;
+  }
+ ```
+>打印结果：false
+
+
 > finally will be called after the execution of the try or catch code blocks.
 The only times finally won't be called are:
 
